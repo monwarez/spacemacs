@@ -136,7 +136,7 @@ Binding a key to: `find-file' calls: `ido-find-file'"
 (defun spacemacs/previous-candidate-preview (&optional n)
   "Go backward N candidates and preview"
   (interactive)
-  (vertico-previous (or n 1))
+  (selec-previous (or n 1))
   (spacemacs/embark-preview))
 
 ;; selectrum
